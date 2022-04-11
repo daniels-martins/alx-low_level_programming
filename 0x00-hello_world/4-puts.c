@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
  *main - function begins 
- *
  *return: function ends
- *
  */
 int  main(void)
 {
