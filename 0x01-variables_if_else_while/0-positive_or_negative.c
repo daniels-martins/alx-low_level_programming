@@ -17,10 +17,10 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf("%f is  positive\n");
+		printf("%Lf is  positive\n");
 	} else
 	{
-		printf("%f is negative\n");
+		printf("%Lf is negative\n");
 	}
 	return (0);
 }
