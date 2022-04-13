@@ -7,20 +7,20 @@
  */
 int print_sign(int n)
 {
-	int test = 0;
+	char test[] = "0";
 	if (n > 0)
 	{
-		test++;
+		test = "1";
 		putchar('+');
 	}
 	else if (n == 0)
 	{
-		test = 0;
+		test = "0";
 		putchar('0');
 	}
 	else
 	{
-		test--;
+		test = "-1";
 		putchar('-');
 	}
 	return (test);
