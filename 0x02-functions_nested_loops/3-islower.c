@@ -1,11 +1,17 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
- * _islower - check for lower case letter
- * @c : character to check the case
+ * print_alphabet - entry point
  * Return: always 0
  */
-int _islower(int c)
+void print_alphabet(void)
 {
-	return (c >= 97 && c <= 122);
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
+	putchar('\n');
 }
