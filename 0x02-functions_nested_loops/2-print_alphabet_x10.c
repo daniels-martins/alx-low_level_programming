@@ -12,7 +12,6 @@ void print_alphabet_x10(void)
 	
 	while (current <= limit)
 	{
-		
 		c = 'a';
 		while (c <= 'z')
 		{
