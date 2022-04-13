@@ -4,7 +4,7 @@
  * print_alphabet_10x - this program pints the letters of the alphabets 10x
  * Return: always 0
  */
-void print_alphabet_10x(void)
+void print_alphabet_x10(void)
 {
 	char c = 'a';
 	int limit  = 10;
