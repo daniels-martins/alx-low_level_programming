@@ -7,7 +7,7 @@
  * @c: character to check the case
  * Return: always 0
  */
-int islower(int c)
+int _islower(int c)
 {
 	return (c >= 97 && c <= 122);
 }
