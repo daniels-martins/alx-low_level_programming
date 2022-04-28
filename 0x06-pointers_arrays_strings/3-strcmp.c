@@ -7,6 +7,8 @@
  *
  *@s2: A pointer to a character that will also be changed/modified/updated
  *
+ * Description : this is a fucker
+ *
  *Return: dest
  *
  */
